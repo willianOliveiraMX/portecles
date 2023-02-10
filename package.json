@@ -1,0 +1,30 @@
+{
+  "name": "portecles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/main.ts",
+    "lint": "eslint . --ext .ts",
+    "lint_fix": "eslint . --ext .ts --fix",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.1",
+    "prettier": "2.8.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
